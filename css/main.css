@@ -38,8 +38,11 @@ body{
   background-color: #ECF0F3 !important;
 }
 #contact-message{
-  border-color: gray !important;
-  outline: none !important;
+  border-color: #CED4DA !important;
+  border-radius: 5px;
+}
+#contact-message:focus{
+  outline: #BFDEFF 5px solid !important;
 
 }
 .bg-color{

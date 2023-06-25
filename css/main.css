@@ -10,6 +10,12 @@
   --mainpink:#FF014F;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+.nav-link:hover{
+  color: gray !important;
+}
 .pad{
   padding-top: 50px;
 }
@@ -219,7 +225,6 @@ ul {
 }
 .card-portfolio .card{
   overflow: hidden !important;
-
   min-height: 400px;
   background-color: rgb(248,249,250);
   border-radius: 20px ;
@@ -273,7 +278,7 @@ ul {
   border-radius: 15px;
   background-color: #E9EEF1;
 }
-.card-icon-top .fa-bars , .fa-book , .fa-tv , .fa-twitch , .fa-wifi , .fa-snowflake{
+.card-icon-top , .fa-headphones{
   color: var(--mainpink);
   font-size: 2.5rem;
 }
@@ -287,7 +292,7 @@ a{
 .do-card a{
 text-decoration: none !important;
 }
-.fa-umbrella{
+.fa-github{
   color:blue;
   font-size: 1.5rem;
 }
@@ -369,4 +374,15 @@ letter by letter
 .fa-arrow-right{
   font-size: 1.3rem;
   color: white;
+}
+/*blog*/
+.blogs img{
+  padding: 20px;
+  border-radius: 30px !important;
+  transition: 1s;
+
+}
+.blog-1{
+  border-radius: 15px !important;
+
 }
